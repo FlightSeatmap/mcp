@@ -110,3 +110,9 @@ repo is the connection glue, and it is MIT licensed.
 
 <support@flightseatmap.com> · [Privacy](https://flightseatmap.com/privacy) ·
 [Terms](https://flightseatmap.com/terms)
+
+---
+
+FlightSeatMap is operated by Merchant Software Solutions Limited, a company
+registered in England and Wales (no. 14098922), The Old Court House, Clark
+Street, Morecambe, LA4 5HR.
