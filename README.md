@@ -90,9 +90,18 @@ Scopes are `read`, `write` and `search`. Tools request only the scope they need.
 | Path | Purpose |
 |---|---|
 | `plugin.json` | [Agent Plugins](https://agent-plugins.org) manifest — loads in Cursor unchanged |
-| `mcp.json` | Server declaration for plugin-aware clients |
+| `mcp.json` | Server declaration, Agent Plugins form |
+| `.claude-plugin/plugin.json` | Claude Code plugin manifest |
+| `.mcp.json` | Server declaration, Claude Code form |
+| `.grok-plugin/plugin.json` | xAI Grok marketplace manifest |
 | `server.json` | Manifest for the [official MCP Registry](https://modelcontextprotocol.io/registry) |
 | `skills/` | Agent skills describing how to use the tools well |
+| `commands/` | Slash commands (`/seatmap`, `/best-seats`) |
+
+Four ecosystems, four manifest conventions, one server. `mcp.json` and `.mcp.json`
+hold the same endpoint in the two shapes different clients look for — change both
+together. `.grok-plugin/plugin.json` points its `mcpServers` at `mcp.json` rather
+than repeating it.
 
 The seat data, the API and the site are a separate, closed-source product. This
 repo is the connection glue, and it is MIT licensed.
