@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.flightseatmap/flightseatmap",
+  "title": "FlightSeatMap",
+  "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 150+ airlines.",
+  "version": "6.0.0",
+  "websiteUrl": "https://flightseatmap.com/mcp",
+  "icons": [
+    {
+      "src": "https://flightseatmap.com/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flightseatmap.com/mcp"
+    }
+  ]
+}
