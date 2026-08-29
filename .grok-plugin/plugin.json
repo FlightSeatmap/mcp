@@ -1,0 +1,14 @@
+{
+  "name": "flightseatmap",
+  "version": "6.0.0",
+  "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 150+ airlines.",
+  "author": {
+    "name": "FlightSeatMap",
+    "url": "https://flightseatmap.com"
+  },
+  "homepage": "https://flightseatmap.com/mcp",
+  "repository": "https://github.com/FlightSeatmap/mcp",
+  "license": "MIT",
+  "keywords": ["flightseatmap", "flight seat map", "airplane seat", "seat alert"],
+  "mcpServers": "mcp.json"
+}
