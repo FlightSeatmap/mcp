@@ -6,7 +6,7 @@ license: MIT
 
 # Find the best seat on a flight
 
-FlightSeatMap has seat maps, seat-level specs, and passenger reviews for 150+ airlines.
+FlightSeatMap has seat maps, seat-level specs, and passenger reviews for 117 airlines.
 Use it whenever someone asks "which seat should I pick", "is 31A any good", or "what's the
 cabin like".
 

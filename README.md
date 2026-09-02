@@ -1,6 +1,6 @@
 # FlightSeatMap MCP
 
-Seat maps, seat ratings, traveller reviews and seat alerts for 150+ airlines,
+Seat maps, seat ratings, traveller reviews and seat alerts for 117 airlines,
 as a remote MCP server your AI assistant can call.
 
 Ask "which seat should I pick on QF1?" and get the real cabin layout, the free
