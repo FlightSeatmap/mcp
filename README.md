@@ -143,3 +143,10 @@ repo is the connection glue, and it is MIT licensed.
 FlightSeatMap is operated by Merchant Software Solutions Limited, a company
 registered in England and Wales (no. 14098922), The Old Court House, Clark
 Street, Morecambe, LA4 5HR.
+
+## ChatGPT
+
+FlightSeatMap is a ChatGPT plugin. `plugin.json` carries the `com.openai`
+extension (directory listing copy), and the hosted server declares plugin
+extension entrypoints on `interactive_seat_finder`, so the seat map opens from
+the ChatGPT sidebar and in a panel beside a conversation, not only inline.

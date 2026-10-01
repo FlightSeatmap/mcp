@@ -18,5 +18,29 @@
     "aviation",
     "airlines",
     "mcp"
-  ]
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "FlightSeatMap",
+        "shortDescription": "Seat maps and the best free seats on 117 airlines.",
+        "longDescription": "See the real cabin layout for a flight, get the free seats ranked against what you care about (window, aisle, legroom, exit row, quiet zone), read what other travellers said about a seat, set alerts for when a seat opens up or your aircraft, schedule or delay changes, and check baggage, carry-on and WiFi facts for each airline. Open it from the ChatGPT sidebar or beside any conversation.",
+        "developerName": "FlightSeatMap",
+        "category": "Travel",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://flightseatmap.com",
+        "privacyPolicyURL": "https://flightseatmap.com/privacy",
+        "termsOfServiceURL": "https://flightseatmap.com/terms",
+        "defaultPrompt": [
+          "Which seat should I pick on QF1?",
+          "Find a window seat with extra legroom on BA178",
+          "Is 66A a good seat on QF1?"
+        ],
+        "brandColor": "#0A1628"
+      }
+    }
+  }
 }
