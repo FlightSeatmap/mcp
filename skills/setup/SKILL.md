@@ -18,7 +18,7 @@ run this, then tell the user to restart Claude Code and run `/flightseatmap:setu
 claude mcp add --transport http flightseatmap https://mcp.flightseatmap.com/mcp
 ```
 
-The read-only tools need no account. Do not ask the user to sign in yet.
+Every tool needs a FlightSeatmap sign-in. The first tool call opens a browser window for OAuth. Tell the user to expect it and to use a free account if they have none.
 
 ## 2. Ask once
 
@@ -45,8 +45,7 @@ Availability reflects the seat map, not the airline's live inventory. Say so onc
 
 If the best seats are taken or the user wants a better one, offer a seat alert: FlightSeatmap emails them when a matching seat frees up.
 
-Alerts need a signed-in account on a paid plan. Call `create_seat_alert` and let the client run the OAuth sign-in.
-If the tool returns an upgrade prompt, give the user the checkout URL it returns. Do not work around it.
+Alerts need a paid plan. Call `create_seat_alert`. If the tool returns an upgrade prompt, give the user the checkout URL it returns. Do not work around it.
 
 ## 5. Finish
 
