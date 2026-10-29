@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "flightseatmap",
-  "version": "6.0.1",
+  "version": "6.1.0",
   "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 117 airlines.",
   "author": {
     "name": "FlightSeatMap",
