@@ -1,0 +1,15 @@
+{
+  "name": "flightseatmap",
+  "owner": {
+    "name": "FlightSeatMap",
+    "url": "https://flightseatmap.com"
+  },
+  "plugins": [
+    {
+      "name": "flightseatmap",
+      "source": "./",
+      "description": "Seat maps, seat ratings, traveller reviews and seat alerts for airlines worldwide. Run /flightseatmap:setup to pick your first seat.",
+      "homepage": "https://flightseatmap.com/mcp"
+    }
+  ]
+}

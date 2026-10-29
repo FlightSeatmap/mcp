@@ -18,6 +18,16 @@ Nothing needs installing. The server is hosted; you point your client at the URL
 
 ### Claude Code
 
+Install the plugin, then let the setup skill pick your first seat:
+
+```
+/plugin marketplace add FlightSeatmap/mcp
+/plugin install flightseatmap@flightseatmap
+/flightseatmap:setup
+```
+
+Or add only the server:
+
 ```bash
 claude mcp add --transport http flightseatmap https://mcp.flightseatmap.com/mcp
 ```
@@ -92,6 +102,7 @@ Scopes are `read`, `write` and `search`. Tools request only the scope they need.
 | `plugin.json` | [Agent Plugins](https://agent-plugins.org) manifest — loads in Cursor unchanged |
 | `mcp.json` | Server declaration, Agent Plugins form |
 | `.claude-plugin/plugin.json` | Claude Code plugin manifest |
+| `.claude-plugin/marketplace.json` | Claude Code marketplace entry, so `/plugin marketplace add FlightSeatmap/mcp` works |
 | `.mcp.json` | Server declaration, Claude Code form |
 | `.grok-plugin/plugin.json` | xAI Grok marketplace manifest |
 | `gemini-extension.json` | Gemini CLI extension manifest |
