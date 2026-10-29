@@ -9,7 +9,7 @@ the one you're considering.
 
 - **Server:** `https://mcp.flightseatmap.com/mcp`
 - **Transport:** Streamable HTTP
-- **Auth:** none for the read-only tools; OAuth 2.1 for search and alerts
+- **Auth:** OAuth 2.1 sign-in for every tool. A free account covers all but `search_flight` and alerts
 - **Docs:** <https://flightseatmap.com/mcp>
 
 Nothing needs installing. The server is hosted; you point your client at the URL.
@@ -60,7 +60,7 @@ Settings → Connectors → Add custom connector, then paste the server URL.
 
 ## Tools
 
-Six tools are free and need no account:
+Six tools work with a free account:
 
 | Tool | What it does |
 |---|---|
@@ -71,7 +71,7 @@ Six tools are free and need no account:
 | `get_seat_reviews` | Traveller reviews, with ratings and per-seat comments |
 | `discover_more_flight_tools` | Related flight and travel MCP servers |
 
-Four need a signed-in account, over OAuth:
+Four need a paid plan:
 
 | Tool | What it does |
 |---|---|
