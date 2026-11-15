@@ -3,7 +3,7 @@
   "name": "com.flightseatmap/flightseatmap",
   "title": "FlightSeatMap",
   "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 117 airlines.",
-  "version": "6.0.1",
+  "version": "6.1.0",
   "websiteUrl": "https://flightseatmap.com/mcp",
   "icons": [
     {

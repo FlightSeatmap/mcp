@@ -9,7 +9,7 @@ the one you're considering.
 
 - **Server:** `https://mcp.flightseatmap.com/mcp`
 - **Transport:** Streamable HTTP
-- **Auth:** OAuth 2.1 sign-in for every tool. A free account covers all but `search_flight` and alerts
+- **Auth:** OAuth 2.1 sign-in for every tool. A free account covers all but `search_flight`, seat alerts and flight alerts
 - **Docs:** <https://flightseatmap.com/mcp>
 
 Nothing needs installing. The server is hosted; you point your client at the URL.
@@ -60,7 +60,7 @@ Settings → Connectors → Add custom connector, then paste the server URL.
 
 ## Tools
 
-Six tools work with a free account:
+Nine tools work with a free account:
 
 | Tool | What it does |
 |---|---|
@@ -69,9 +69,12 @@ Six tools work with a free account:
 | `get_seat_info` | One seat in detail — pitch, recline, power, galley and lavatory proximity |
 | `interactive_seat_finder` | A good default when the traveller hasn't said what they want yet |
 | `get_seat_reviews` | Traveller reviews, with ratings and per-seat comments |
+| `submit_seat_review` | Post the traveller's own review of a flight and seat (one per flight) |
+| `vote_review` | Mark a review as helpful or not helpful |
+| `get_airline_info` | An airline's baggage fees, carry-on limits, in-flight WiFi and fleet |
 | `discover_more_flight_tools` | Related flight and travel MCP servers |
 
-Four need a paid plan:
+Seven need a paid plan:
 
 | Tool | What it does |
 |---|---|
@@ -79,6 +82,9 @@ Four need a paid plan:
 | `create_seat_alert` | Email the traveller when a matching seat frees up |
 | `list_seat_alerts` | The traveller's alerts, with departure countdowns |
 | `delete_seat_alert` | Remove an alert |
+| `create_flight_alert` | Email the traveller when the aircraft or schedule changes, or the flight is delayed |
+| `list_flight_alerts` | The traveller's flight alerts |
+| `delete_flight_alert` | Remove a flight alert |
 
 Seat map, review and alert results render as interactive
 [MCP Apps](https://modelcontextprotocol.io) widgets in clients that support them.
