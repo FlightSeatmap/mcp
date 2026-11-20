@@ -1,11 +1,6 @@
 ---
 description: Look up the seat map for a flight
 argument-hint: "[flight_number] [date]"
-allowed-tools:
-  - mcp__flightseatmap__get_seatmap
-  - mcp__flightseatmap__get_seat_info
-  - mcp__flightseatmap__find_best_seats
-  - mcp__flightseatmap__search_flight
 ---
 
 # Seat Map Lookup

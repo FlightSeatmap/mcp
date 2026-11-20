@@ -1,10 +1,6 @@
 ---
 description: Find the best seats on a flight matching your preferences
 argument-hint: "[flight_number] [preferences...]"
-allowed-tools:
-  - mcp__flightseatmap__get_seatmap
-  - mcp__flightseatmap__find_best_seats
-  - mcp__flightseatmap__get_seat_info
 ---
 
 # Find Best Seats
