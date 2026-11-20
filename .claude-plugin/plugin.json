@@ -8,5 +8,7 @@
   },
   "homepage": "https://flightseatmap.com/mcp",
   "repository": "https://github.com/FlightSeatmap/mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://flightseatmap.com/privacy",
+  "icon": "./.claude-plugin/icon.png"
 }
