@@ -1,0 +1,16 @@
+{
+  "name": "flightseatmap",
+  "version": "6.1.0",
+  "description": "Seat maps, seat ratings, traveller reviews, seat alerts and flight alerts for 117 airlines.",
+  "author": {
+    "name": "FlightSeatMap",
+    "email": "support@flightseatmap.com"
+  },
+  "homepage": "https://flightseatmap.com/mcp",
+  "repository": "https://github.com/FlightSeatmap/mcp",
+  "license": "MIT",
+  "keywords": ["travel", "flights", "seat-map", "airlines", "mcp"],
+  "logo": "assets/logo.png",
+  "skills": "skills",
+  "mcpServers": "mcp.json"
+}
