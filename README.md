@@ -34,8 +34,9 @@ claude mcp add --transport http flightseatmap https://mcp.flightseatmap.com/mcp
 
 ### Cursor
 
-Install this plugin from the marketplace, or add the server directly in
-`~/.cursor/mcp.json`:
+[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=flightseatmap&config=eyJ1cmwiOiJodHRwczovL21jcC5mbGlnaHRzZWF0bWFwLmNvbS9tY3AifQ==)
+(one click), install the plugin from the Cursor marketplace, or add the
+server directly in `~/.cursor/mcp.json`:
 
 ```json
 {
@@ -47,6 +48,19 @@ Install this plugin from the marketplace, or add the server directly in
   }
 }
 ```
+
+### Grok Bot
+
+Grok Bot uses your Cursor plugin library. Install the FlightSeatMap plugin
+from Plugins, then click **Authenticate**. Or ask the bot in chat:
+
+> Add a custom MCP server called flightseatmap at https://mcp.flightseatmap.com/mcp
+
+Click **Add it**, then **Authorize** on the connect card and sign in to FlightSeatMap.
+
+### Grok (grok.com)
+
+Settings → Connectors → Add custom connector, then paste the server URL.
 
 ### VS Code
 
